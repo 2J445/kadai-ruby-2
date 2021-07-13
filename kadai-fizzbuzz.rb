@@ -12,13 +12,13 @@ def fizzbuzz(num)
 end
  
 
-(1..num_max).each do |num|
+(1..num_max).each do |n|
     if n % 15 == 0
         puts "FizzBuzz"
     elsif n % 3 == 0
         puts "Fizz"
     elsif n % 5 == 0
         puts "Buzz"
-    else num
+    else n
     end
 end
